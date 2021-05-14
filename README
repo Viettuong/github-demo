@@ -1,0 +1,20 @@
+Câu 1:
+-   10 thẻ inline: span, img, a, label, input, strong, em, i, b, br.
+-   10 thẻ block: div, p, h1 -> h6, ul, li, ol, table.
+-   Các thẻ semantic trong HTML5: header, nav, aside, article, footer, section, main, summary.
+
+Câu 2: 
+-   block: boy.
+-   element: hair, eyes, hand.
+-   modifier: tall, strong, yellow, black.
+-   block__element: boy__hair, boy__eyes, boy__hand
+-   block--modifier: boy--strong, boy--tall
+-   block__element--modifier: boy__hair--yellow, boy__eyes--black
+
+Câu 3:
+<p>Hôm nay là <span class="inline">thứ 3</span></p>
+<div>
+    <p>Have a nice day <span>when i have many money</span><p>
+</div>
+
+Câu 4:

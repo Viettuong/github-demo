@@ -1,0 +1,265 @@
+/* Cách dùng biến: color: var(--primary-color) */
+:root{
+    --primary-color: blue;
+    --secondary-color: #ffa400;
+}
+
+html{
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.5;
+    width: 100%;
+    height: 100vh;
+}
+
+/* .modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.336);
+}
+
+.modal__content{
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 5rem;
+}
+ */
+
+
+
+/* .video{
+    width: 750px;
+    height: 500px;
+    position: relative;
+}
+
+.video__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video__icon{
+    color: white;
+    position: absolute;
+    font-size: 3rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+
+
+/* .card{
+    position: relative;
+    width: 20rem;
+    height: 100%;
+    background-color: black;
+}
+
+.sale{
+    position: absolute;
+    color: white;
+    background-color: #ffa400;
+    top: 1rem;
+    right: 1rem;
+    border-radius: 1rem; 
+} */
+
+
+
+/* .bar{
+    position: relative;
+    width: 30rem;
+    height: 1rem;
+    background-color: #ccc;
+    border-radius: 2rem;
+    margin: 5rem auto 0;
+}
+
+.bar__progress{
+    width: 50%;
+    height: 100%;
+    background-color: green;
+    border-radius: inherit;
+}
+
+.bar__circle{
+    width: 2rem;
+    height: 2rem;
+    background-color: green;
+    border-radius: 2rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+/* .title{
+    position: relative;
+    padding-left: 5rem;
+    margin-left: 2rem;
+}
+
+.title::before{
+    content: "";
+    width: 2rem;
+    height: 2rem;
+    background-color: red;
+    border-radius: 2rem;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.line{
+    position: relative;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.line::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #ffa400;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.line-text{
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+    padding: 10px;
+}
+
+.icon{
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+    color: orangered;
+    margin: 5rem auto;
+}
+
+.icon::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: currentColor;
+    left: 0;
+    top: 0;
+    opacity: 0.3;
+}
+
+.icon-user{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.effect{
+    position: relative;
+    text-decoration: none;
+    border: 1px solid red;
+    padding: 2rem;
+    margin-left: 2rem;
+    transition: color 0.25s linear;
+}
+
+.effect::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    background-color: #ffa400;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: width 0.25s linear;
+}
+
+.effect:hover::after{
+    width: 100%;
+}
+
+.effect:hover{
+    color: white;
+} */
+
+/* .container{
+    width: 40rem;
+    height: 60rem;
+    background-color: violet;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.block-1{
+    position: relative;
+    z-index: 20;
+}
+
+.block-2{
+    width: 15rem;
+    height: 15rem;
+    background-color: aqua;
+    color: white;
+    margin-top: -15rem;
+    position: relative;
+    z-index: 100;
+}
+
+.item{
+    width: 15rem;
+    height: 15rem;
+    color: white;
+}
+
+.item-first{
+    background-color: blue;
+    border: 3px solid black;
+}
+
+.item-second{
+    background-color: red;
+    border: 3px solid olivedrab;
+    margin-top: -5rem;
+    margin-left: 5rem;
+    position: relative;
+    z-index: 1000;
+}
+
+.item-third{
+    background-color: brown;
+    border: 3px solid gold;
+    margin-top: -5rem;
+    margin-left: 10rem;
+    transform: rotateZ(45deg);
+} */
